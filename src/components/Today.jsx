@@ -8,7 +8,7 @@ function Today() {
     day: "numeric",
   });
 
-  return <h1 className="today-is">오늘은 {now} 입니다.</h1>;
+  return <div className="show-today"><h1 className="today-is">오늘은 {now} 입니다.</h1></div>
 }
 
 export default Today;
